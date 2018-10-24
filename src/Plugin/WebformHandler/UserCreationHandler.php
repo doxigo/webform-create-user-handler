@@ -9,9 +9,9 @@ use Drupal\webform\Entity\WebformSubmission;
  * Webform submission action handler.
  *
  * @WebformHandler(
- *   id = "userrole",
+ *   id = "usercreate",
  *   label = @Translation("User Create"),
- *   category = @Translation("User Create"),
+ *   category = @Translation("Action"),
  *   description = @Translation("Creates a user after submission"),
  *   cardinality = \Drupal\webform\Plugin\WebformHandlerInterface::CARDINALITY_UNLIMITED,
  *   results = \Drupal\webform\Plugin\WebformHandlerInterface::RESULTS_PROCESSED,

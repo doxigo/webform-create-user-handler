@@ -1,0 +1,9 @@
+name: Webform Handler User Creation
+type: module
+description: Custom Webform Handler to add a new user upon a webform save
+# core: 8.x
+project: 'webform_handler_user_creation'
+dependencies:
+  - webform
+version: '8.x-1.0'
+core: '8.x'
